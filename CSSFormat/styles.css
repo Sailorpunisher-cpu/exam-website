@@ -1,0 +1,187 @@
+
+nav
+{   
+ background-color:rgb(38, 58, 85);
+ padding: 1px;
+ margin:0px;
+}
+nav ul
+{
+    text-align: center;
+    font-size : 1.2em;
+    background-color:rgb(38, 58, 85);
+}
+nav ul li
+{
+    list-style-type: none;
+    background-color: rgb(38, 58, 85);
+    display: inline;
+    padding: 15px;
+    margin:5px;
+    border:1px solid white;
+    border-radius:25px;   
+}
+nav ul li a 
+{
+    color: orange;
+    text-decoration: none;
+}
+
+nav ul li a:hover
+{
+    :hover;
+ background-color: rgb(38, 58, 85);
+}
+
+header
+{
+    background-color: black;
+    padding: 10px;
+    height: 100px;
+
+}
+header h1
+{
+ font-size: 1.3em;
+ color:white;
+}
+
+footer 
+{
+    padding: 10px;
+    margin: -15px;
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(38, 58, 85);
+    text-align: center;
+    color: lightgrey;
+}
+
+body 
+{
+    font-family: verdana;
+    margin:0;
+    
+}
+
+.title 
+{
+    margin-left:50%;
+    margin-right:30%;
+    color:lightgrey
+}
+.storetitle 
+{
+    margin-left:30%;
+    margin-right:30%;
+    color:lightgrey
+}
+h1 
+{
+    color:white;
+}
+
+h2
+{
+    color:lightgrey
+    
+}
+h3
+{
+    color:lightgrey;
+    font-size:0.8em;
+}
+
+.logo
+{
+    margin-top:20px;
+    margin-left:0px;
+     margin-right:5px;
+    width:80px;
+    height:90px;
+    text-align:left;
+    float:left;
+    max-height:80px;
+}
+
+.components
+{
+    height:300px;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 30%;
+    float:left;
+}
+
+.article 
+{
+    max-height: 1000px;
+    min-height: 325px;
+}
+
+.right
+{
+    width: 65%;
+    float:left;
+}
+.left
+ {
+    width: 65%;
+    float:right;
+}
+.section 
+{
+    
+}
+.maps 
+{
+margin-left:10%;
+margin-right:10;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+  }
+  .important 
+  {
+    color:red;
+  }
+  .columns
+  {
+    column-count:2;
+    column-width:20px;
+    column-rule-color:red;
+    column-rule-style:dotted
+  }
+ 
